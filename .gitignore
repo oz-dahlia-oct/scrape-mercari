@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Resources for development
+resource/
+
+# for development and test
+setting.py
+
 # Distribution / packaging
 .Python
 build/

@@ -9,7 +9,8 @@ import os
 
 # Import original modules
 from mer import MERController
-
+from mylogging import Log
+from conf import Conf
 
 
 if __name__ == '__main__':

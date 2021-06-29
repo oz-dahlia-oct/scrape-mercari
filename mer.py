@@ -8,7 +8,7 @@ import time
 
 # Import original modules
 from conf import Conf
-from logging import Log
+from mylogging import Log
 
 
 # Import external packages

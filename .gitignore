@@ -9,6 +9,9 @@ __pycache__/
 # Resources for development
 resource/
 
+# vscode
+.vscode/
+
 # for development and test
 setting.py
 

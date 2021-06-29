@@ -17,12 +17,6 @@
 """
 
 
-try:
-    from setting import S # 連続稼働テスト用
-except:
-    pass
-
-
 class Conf:
     """
     設定用のクラス
@@ -30,15 +24,6 @@ class Conf:
     ※ 状況に応じて書き換える
     """
 
-    try:
-        account = S.account
-    except:
-        account = ''
-
-    try:
-        pw = S.pw
-    except:
-        pw = ''
 
     # distribution 用
     # Python の環境を持っている場合は dist は False とする
